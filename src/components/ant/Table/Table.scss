@@ -1,0 +1,29 @@
+.ant-table-tbody > tr .ant-table-wrapper:only-child .ant-table.ant-table-empty,
+.ant-table-wrapper.table-job-items .ant-spin-nested-loading .ant-spin-container .ant-table {
+  margin: -16px 8px 3px 8px;
+}
+
+.ant-spin-container .ant-table-tbody > tr .ant-table-wrapper:only-child .ant-table {
+  margin: 0;
+}
+
+.ant-table-thead > tr > th {
+  text-transform: uppercase;
+}
+
+.ant-table-expanded-row > .ant-table-cell {
+  background: #e9e9eb;
+  &:hover {
+    background: #e9e9eb;
+  }
+  &:active {
+    background: #e9e9eb;
+  }
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
